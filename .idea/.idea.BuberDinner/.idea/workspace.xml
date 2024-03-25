@@ -8,14 +8,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d304894f-15e0-46c8-ae67-f8b61c8cdc92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BuberDinner.Application/Authentication/Commands/Register/RegisterCommandValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuberDinner.Application/Authentication/Queries/Login/LoginQueryValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuberDinner.Application/Common/Behaviors/ValidationBehavior.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Api/Controllers/DinnersController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BuberDinner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BuberDinner/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuberDinner.Api/Controllers/ApiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuberDinner.Api/Controllers/ApiController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuberDinner.Application/BuberDinner.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BuberDinner.Application/BuberDinner.Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuberDinner.Application/DependencyInjectionRegister.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuberDinner.Application/DependencyInjectionRegister.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuberDinner.Domain/BuberDinner.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BuberDinner.Domain/BuberDinner.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuberDinner.Api/Controllers/AuthenticationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuberDinner.Api/Controllers/AuthenticationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuberDinner.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuberDinner.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuberDinner.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BuberDinner.Api/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuberDinner.Infrastructure/BuberDinner.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BuberDinner.Infrastructure/BuberDinner.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuberDinner.Infrastructure/DependencyInjectionRegister.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuberDinner.Infrastructure/DependencyInjectionRegister.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,9 @@
       <updated>1711311783750</updated>
       <workItem from="1711311787502" duration="425000" />
       <workItem from="1711312502984" duration="954000" />
-      <workItem from="1711360199847" duration="5521000" />
+      <workItem from="1711360199847" duration="7328000" />
+      <workItem from="1711375337406" duration="1003000" />
+      <workItem from="1711379287348" duration="2275000" />
     </task>
     <servers />
   </component>
