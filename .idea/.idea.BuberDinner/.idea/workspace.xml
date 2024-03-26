@@ -8,14 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d304894f-15e0-46c8-ae67-f8b61c8cdc92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BuberDinner.Api/Controllers/DinnersController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Common/Models/AggregateRoot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Common/Models/Entity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Common/Models/ValueObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BuberDinner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BuberDinner/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuberDinner.Api/Controllers/ApiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuberDinner.Api/Controllers/ApiController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuberDinner.Api/Controllers/AuthenticationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuberDinner.Api/Controllers/AuthenticationController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuberDinner.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuberDinner.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuberDinner.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BuberDinner.Api/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuberDinner.Infrastructure/BuberDinner.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BuberDinner.Infrastructure/BuberDinner.Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuberDinner.Infrastructure/DependencyInjectionRegister.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuberDinner.Infrastructure/DependencyInjectionRegister.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +85,7 @@
       <workItem from="1711312502984" duration="954000" />
       <workItem from="1711360199847" duration="7328000" />
       <workItem from="1711375337406" duration="1003000" />
-      <workItem from="1711379287348" duration="2275000" />
+      <workItem from="1711379287348" duration="4585000" />
     </task>
     <servers />
   </component>
