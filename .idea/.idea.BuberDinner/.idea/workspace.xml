@@ -8,10 +8,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d304894f-15e0-46c8-ae67-f8b61c8cdc92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Common/Models/AggregateRoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Common/Models/Entity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Common/Models/ValueObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Bill/Bill.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Bill/ValueObjects/BillId.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Bill/ValueObjects/Price.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Common/Models/ValueObjects/AverageRating.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Common/Models/ValueObjects/Rating.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Dinner/Dinner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Dinner/Entities/Reservation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Dinner/ValueObjects/DinnerId.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Dinner/ValueObjects/Location.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Dinner/ValueObjects/ReservationId.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Guest/Guest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Guest/ValueObjects/GuestId.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Host/Host.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Host/ValueObjects/HostId.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Menu/Entities/MenuItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Menu/Entities/MenuSection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Menu/Menu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Menu/ValueObjects/MenuId.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Menu/ValueObjects/MenuItemId.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/Menu/ValueObjects/MenuSectionId.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/User/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuberDinner.Domain/User/ValueObjects/UserId.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BuberDinner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BuberDinner/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuberDinner.Application/Authentication/Commands/Register/RegisterCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuberDinner.Application/Authentication/Commands/Register/RegisterCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuberDinner.Application/Authentication/Common/AuthenticationResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuberDinner.Application/Authentication/Common/AuthenticationResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuberDinner.Domain/Common/Models/ValueObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuberDinner.Domain/Common/Models/ValueObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuberDinner.Domain/Entities/User.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +108,7 @@
       <workItem from="1711312502984" duration="954000" />
       <workItem from="1711360199847" duration="7328000" />
       <workItem from="1711375337406" duration="1003000" />
-      <workItem from="1711379287348" duration="4585000" />
+      <workItem from="1711379287348" duration="11700000" />
     </task>
     <servers />
   </component>
