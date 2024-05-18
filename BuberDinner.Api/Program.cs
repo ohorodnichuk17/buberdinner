@@ -2,25 +2,19 @@ using BuberDinner.Api;
 using BuberDinner.Application;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services
-    .AddPresentation()
-    .AddApplication()
-    .AddInfrastructure(builder.Configuration);
-
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-var app = builder.Build();
-
-if (app.Environment.IsDevelopment())
 {
-   app.UseSwagger();
-   app.UseSwaggerUI();
+    builder.Services
+        .AddPresentation()
+        .AddApplication()
+        .AddInfrastructure(builder.Configuration);
 }
 
-app.UseExceptionHandler("/error");
-app.UseHttpsRedirection();
-app.UseAuthentication();
-app.UseAuthorization();
-app.MapControllers();
-app.Run();
+var app = builder.Build();
+{
+    app.UseExceptionHandler("/error");
+    app.UseHttpsRedirection();
+    app.UseAuthentication();
+    app.UseAuthorization();
+    app.MapControllers();
+    app.Run();
+}

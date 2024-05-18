@@ -6,8 +6,8 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace BuberDinner.Api.Controllers;
 
-[ApiController]
 [Authorize]
+[ApiController]
 public class ApiController : ControllerBase
 {
     protected IActionResult Problem(List<Error> errors)
@@ -16,14 +16,14 @@ public class ApiController : ControllerBase
         {
             return Problem();
         }
-        
+
         if (errors.All(error => error.Type == ErrorType.Validation))
         {
             return ValidationProblem(errors);
         }
-        
+
         HttpContext.Items[HttpContextItemKeys.Errors] = errors;
-        
+
         return Problem(errors[0]);
     }
 
@@ -46,9 +46,11 @@ public class ApiController : ControllerBase
 
         foreach (var error in errors)
         {
-            modelStateDictionary.AddModelError(error.Code, error.Description);
+            modelStateDictionary.AddModelError(
+                error.Code,
+                error.Description);
         }
-            
+
         return ValidationProblem(modelStateDictionary);
     }
 }
