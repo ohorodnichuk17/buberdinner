@@ -1,16 +1,55 @@
-## BuberDinner
-This repository follows course from YouTube on channel named `Amichai Mantinband` [(link)](https://www.youtube.com/channel/UClz49zOCnzsclUJY-t62lIw). The course's name is `REST API Following CLEAN ARCHITECTURE & DDD` [(link)](https://www.youtube.com/watch?v=fhM0V2N1GpY&list=PLzYkqgWkHPKBcDIP5gzLfASkQyTdy0t4k).
+# Buber Dinner
 
-### About applications
-Application is written in .NET 6.0 with C# using WebAPI technology. This solutions follows Clean Architecture principles and Domain-Driven Design principles. It contains 4 layers:
- - Domain
- - Application
- - Infrastructure
- - Api
+Buber Dinner is a sample application that allows users to turn their homes into restaurants, similar to Airbnb's model for hotels. This project is built using C# and follows principles of Domain-Driven Design (DDD) and Clean Architecture.
 
-#### Build and run
-To run this project you need to have .NET 6.0 runtime installed. Then clone (or download) this repository.\
-Then open CLI and open folder with application. Then run from CLI with command:
-```
-dotnet run --project .\BuberDinner.Api\
-```
+## Table of Contents
+- [Features](#features)
+- [Technologies](#technologies)
+- [Architecture](#architecture)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+- Turn your home into a restaurant
+- Manage reservations and orders
+- User authentication with JWT
+- Follows Clean Architecture principles
+- Implements DDD concepts
+
+## Technologies
+- .NET 7
+- Entity Framework Core
+- Mediator pattern
+- FluentValidation
+- FunctionalDDD
+- Mapster
+- JWT for authentication
+
+## Architecture
+The application is structured based on Clean Architecture principles, which include the following layers:
+
+1. **Domain Layer**: Contains business logic, aggregate roots, entities, and value objects.
+2. **Application Layer**: Includes business logic and serves as a bridge between the domain and infrastructure layers.
+3. **Infrastructure Layer**: Implements interfaces defined in the application layer and handles external communications.
+4. **Presentation Layer**: Manages HTTP requests and translates them into commands and queries for the application layer.
+
+### Domain Layer
+- Business logic
+- Aggregate roots
+- Entities
+- Value objects
+
+### Application Layer
+- Business logic
+- CQRS (Command Query Responsibility Segregation)
+- Use cases
+
+### Infrastructure Layer
+- Data access
+- External service integrations
+
+### Presentation Layer
+- API controllers
+- Request handling
